@@ -52,7 +52,7 @@
     </header>
     <section class="catalog-products">
       <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
-      <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get"></form>
+      <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
       <fieldset class="catalog-filter-group">
         <legend class="catalog-filter-title">Инфраструктура:</legend>
         <ul class="catalog-filter-list">
@@ -89,15 +89,15 @@
             </label>
           </li>
         </ul>
+        <input class="field" placeholder="0" type="number" name="price-min" value="min" required>
+        <input class="field" placeholder="9000" type="number" name="price-max" required>
 
-      </fieldset>
-      
-      <input class="field" placeholder="0" type="number" name="price-min" value="min" required>
-      <input class="field" placeholder="9000" type="number" name="price-max" required>
-
-
+      </fieldset>       
+      <div class="filter-get">
       <button class="button" type="submit">Применить</button>
-      <button class="button" type="#">Сбросить</button>
+      <button class="button" type="reset">Сбросить</button>
+      </div>
+      </form>
       </section>
 
       <section class="list-of-products">
@@ -119,51 +119,63 @@
       <ul>
         <li class="product-card">
           <a class="product-card-link" href="#">
-            <img class="product-card-image" src="" alt="">
+            <img class="product-card-image" src="#" alt="Amara Resort & Spa">
             <h3 class="product-card-title">Amara Resort & Spa</h3>
-            <p>Гостиница</p>
+          </a>
+          <p>
+            <span>Гостиница</span>
            <span>От 4000 Р</span>
+          </p> 
             <a class="product-card-button-more" href="#">Подробнее</a>
             <a class="product-card-button-favorites"  href="#">В избранное</a>
-            <div class="raiting-image" type="image" value="4-star">4 Звезды</div>
-            <div class="rating-text" type="text">Рейтинг:8.5</div>
-          </a>
+            <div class="raiting-image" >4 Звезды</div>
+            <div class="rating-text" >Рейтинг:8.5</div>
+          
         </li>
         <li class="product-card">
           <a class="product-card-link" href="#">
-            <img class="product-card-image" src="" alt="">
+            <img class="product-card-image" src="#" alt="Villas at Poco Diablo">
             <h3 class="product-card-title">Villas at Poco Diablo</h3>
-            <p>Гостиница</p>
+          </a>
+            <p>
+              <span>Гостиница</span>
            <span>От 5000 Р</span>
+          </p>
             <a class="product-card-button-more" href="#">Подробнее</a>
             <a class="product-card-button-favorites button"  href="#">В избранное</a>
-            <div class="raiting-image" type="image" value="4-star">4 Звезды</div>
-            <div class="rating-text" type="text">Рейтинг:9.2</div>
-          </a>
+            <div class="raiting-image">4 Звезды</div>
+            <div class="rating-text">Рейтинг:9.2</div>
+          
         </li>
         <li class="product-card">
           <a class="product-card-link" href="#">
-            <img class="product-card-image" src="" alt="">
+            <img class="product-card-image" src="#" alt="Desert Quail Inn">
             <h3 class="product-card-title">Desert Quail Inn</h3>
-            <p>Гостиница</p>
+          </a>
+            <p>
+            <span>Гостиница</span>
            <span>От 2500 Р</span>
+          </p>
             <a class="product-card-button-more" href="#">Подробнее</a>
             <a class="product-card-button-favorites"  href="#">В избранное</a>
-            <div class="raiting-image" type="image" value="3-star">3 Звезды</div>
-            <div class="rating-text" type="text">Рейтинг:6.9</div>
-          </a>
+            <div class="raiting-image">3 Звезды</div>
+            <div class="rating-text">Рейтинг:6.9</div>
+          
         </li>
         <li class="product-card">
           <a class="product-card-link" href="#">
-            <img class="product-card-image" src="" alt="">
+            <img class="product-card-image" src="#" alt="GreenTree Inn">
             <h3 class="product-card-title">GreenTree Inn</h3>
-            <p>Гостиница</p>
+          </a>
+            <p>
+              <span>Гостиница</span>
            <span>От 1500 Р</span>
+          </p>
             <a class="product-card-button-more" href="#">Подробнее</a>
             <a class="product-card-button-favorites"  href="#">В избранное</a>
-            <div class="raiting-image" type="image" value="2-star">2 Звезды</div>
-            <div class="rating-text" type="text">Рейтинг:5.0</div>
-          </a>
+            <div class="raiting-image">2 Звезды</div>
+            <div class="rating-text">Рейтинг:5.0</div>
+         
         </li>
       </ul>
       <ul class="pagination">
@@ -218,7 +230,7 @@
     <section class="footer-social">
       <ul>
         <li class="footer-social-item">
-          <a class="button" href="#">
+          <a class="footer-social-link" href="#">
             <span class="visually-hidden">ВКонтакте</span>
           </a>
         </li>
@@ -235,14 +247,12 @@
 
       </ul>
     </section>
-    <section class="footer-contact">
-      <address>
-        <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-      </address>
-    </section>
-    <section class="footer-logo-htmlacademy">
-      <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>
-    </section>
+    <div class="footer-contact">      
+        <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>      
+    </div>
+    <div class="footer-logo-htmlacademy">
+      <a class="htmlacademy-link" href="https://htmlacademy.ru/">Логотип html academy</a>
+    </div>
     </footer>
   </body>
 </html>
