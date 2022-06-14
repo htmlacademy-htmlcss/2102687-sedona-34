@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Pt Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("./fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "Pt Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+
+}
+
+.navigation-link {
+    font-family: "PT Sans", sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 700;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+
+}
+
+ol {
+    list-style-type: none;
+    /*Убираем исходные маркеры*/
+}
+
+ul {
+    list-style-type: none;
+    /*Убираем исходные маркеры*/
+}
+
+.advantages-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+
+}
+
+.advantages-number {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.advantages-description {
+    font-size: 18px;
+    line-height: 21px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+
+.contacts-phone {
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.inner-header-title {
+    font-size: ;
+    line-height: ;
+    text-transform: uppercase;
+}
+.breadcrums {
+    color: ;
+}
+
+.breadcrums {
+    color: ;
+}
+
+.main-index {
+    color: #000000;
+    background-color: #ffffff;
+    background-image: url(/images/index-background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.advantages-list{
+    background-color: #ffffff; 
+}
+.advantages-item-1 {
+   color: #FFFFFF;
+   background-color: #82B3D3; 
+}
+
+.advantages-item-2 {
+    color: #000000;
+    background-color: rgba(131, 179, 211, 0.12); 
+ }
+
+ .advantages-item-3 {
+    color: #000000;
+    background-color: rgba(131, 179, 211, 0.2); 
+ }
+
+ .servises-item-1 {
+    color: #000000;
+    background-color: rgba(131, 179, 211, 0.12);
+}
+
+.servises-item-2 {
+    color: #000000;
+    background-color: #FFFFFF;
+    }
+
+    .visually-hidden{
+        visibility: hidden;
+    }
+
+    .e-mail-request-index{
+    color: #000000;
+    background-color: #ffffff;
+    background-image: url(/images/index-background-footer.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    }
